@@ -1,5 +1,13 @@
 package Deck;
 
+/******************************************************************************
+ * Purpose : Workshop 
+ * @author Sanyukta Nirmal
+ * @Version 1.0
+ * @Since 17-06-2021
+ *
+ *******************************************************************************/
+
 import java.util.Random;
 import java.util.Scanner;
 
