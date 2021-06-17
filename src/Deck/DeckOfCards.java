@@ -1,5 +1,13 @@
 package Deck;
 
+/******************************************************************************
+ * Purpose : Workshop 
+ * @author Sanyukta Nirmal
+ * @Version 1.0
+ * @Since 17-06-2021
+ *
+ *******************************************************************************/
+
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
@@ -46,18 +54,8 @@ public class DeckOfCards {
 		 *  all 9 cards for each
 		 */
 
-		int j2 = 0;
-		for (int i = 0; i < 4; i++) {
-			System.out.print(" Player " + i + ": \n");
-			for (int j = 0; j < 9; j++) {
-
-				System.out.print(card[j2] + "== \n");
-				j2++;
-			}
-			System.out.println(card);
-		}
-		return card; 
-
+		
+		return card;
 	}
 
 	public static void main(String[] args) {

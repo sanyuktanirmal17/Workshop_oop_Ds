@@ -5,11 +5,14 @@ import java.util.Scanner;
 
 public class Utility {
 
-	static Scanner scanner = new Scanner(System.in);	
-	/**   
+	static Scanner scanner = new Scanner(System.in);
+
+	/**
 	 * shuffles the card of deck
+	 * 
 	 * @param arr array of cards
 	 * @return returns shuffle array
+	 * 
 	 */
 	public static String[] shuffleCards(String[] arr) {
 		Random random = new Random();
